@@ -32,7 +32,7 @@ jobs:
       run: node app.js
 
     - name: 6. Executando testes
-      run: node test.js
+      run: node teste.js
 
     - name: 7. Finalização
       run: echo "Pipeline finalizado!"
