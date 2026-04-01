@@ -2,9 +2,11 @@ name: Pipeline de CI/CD - Meu Primeiro Robô
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   pull_request:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   verificacoes-basicas:
